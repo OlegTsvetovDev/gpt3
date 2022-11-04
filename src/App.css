@@ -28,10 +28,12 @@ a {
 }
 
 .gradient__text {
-  background-color: var(--gradient-text);
+  background: var(--gradient-text);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
 }
 
 .section__padding {
