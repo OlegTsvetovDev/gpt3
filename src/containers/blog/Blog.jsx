@@ -3,7 +3,7 @@ import './blog.css'
 
 
 const Blog = ({ props }) => (
-  <div>
+  <div id="blog">
     Blog
   </div>
 )

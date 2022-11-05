@@ -32,7 +32,7 @@ const featuresData = [
 ]
 
 const Features = ({ props }) => (
-  <div className="gpt3__features section__padding">
+  <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">{headersData.header}</h1>
       <a href="">{headersData.button}</a>

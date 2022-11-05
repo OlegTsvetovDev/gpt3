@@ -1,0 +1,111 @@
+.gpt3__cta {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  background: var(--gradient-bar);
+  width: 100%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  align-content: space-between;
+  align-items: space-between;
+  justify-content: space-between;
+  padding: 3.5rem 4.5rem;
+}
+
+.gpt3__cta-content {
+  flex: 5;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.gpt3__cta-content p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #000;
+}
+
+.gpt3__cta-content h3 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000;
+}
+
+.gpt3__cta-btn {
+  flex: 1 0 120px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+}
+
+.gpt3__cta-btn button {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  padding: 1rem 2rem;
+  border: 1px solid #000;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.gpt3__cta-btn button:hover {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  background-color: transparent;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .gpt3__cta {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 2.5rem 3.5rem 2rem;
+    row-gap: 1rem;
+  }
+
+  .gpt3__cta-btn {
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__cta {
+      padding: 2rem;
+  }
+  .gpt3__cta-content {
+    row-gap: 1rem;
+  }
+  .gpt3__cta-content h3 {
+    line-height: 32px;
+  }
+}
