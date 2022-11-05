@@ -57,3 +57,11 @@
   line-height: 24px;
   color: var(--color-text);
 }
+
+@media screen and (max-width: 550px) {
+  .gpt3__features-container__feature {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}

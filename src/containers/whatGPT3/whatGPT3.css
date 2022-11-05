@@ -91,6 +91,7 @@
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 0rem;
+        row-gap: 2rem;
     }
 
     .gpt3__whatgpt3-heading p {
@@ -106,6 +107,8 @@
     .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
         margin-top: 0.5rem;
     }
+
+
 
     .gpt3__whatgpt3-heading h1 {
         font-size: 28px;

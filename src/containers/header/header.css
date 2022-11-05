@@ -78,6 +78,13 @@
   outline: none;
 }
 
+.gpt3__header-content__input button:hover {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  background-color: transparent;
+}
+
 .gpt3__header-content__people {
   width: 100%;
   display: -webkit-flex;
