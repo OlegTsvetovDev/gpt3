@@ -54,7 +54,8 @@
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  border-color: #fff;
+  border-color: var(--color-subtext);
+  color: var(--color-subtext);
 }
 
 .gpt3__blog-container_article-content h3 {

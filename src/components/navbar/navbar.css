@@ -6,6 +6,20 @@
   -ms-align-items: center;
   align-items: center;
   padding: 2rem 6rem;
+  position: fixed;
+  left: 0; right: 0;
+  top: 0;
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  z-index: 10;
 }
 
 .gpt3__navbar-links {
@@ -152,7 +166,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .gpt3__navbar-links_container {
     display: none;
   }

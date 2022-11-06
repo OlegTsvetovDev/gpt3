@@ -46,6 +46,14 @@
   cursor: pointer;
 }
 
+.gpt3__footer-heading button:hover {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border-color: var(--color-btn);
+  color: var(--color-btn);
+}
+
 .gpt3__footer-links {
   display: -webkit-flex;
   display: -ms-flex;

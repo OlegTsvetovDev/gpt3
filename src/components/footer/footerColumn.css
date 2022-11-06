@@ -8,6 +8,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-content: flex-start;
+  align-items: flex-start;
 }
 
 .gpt3__footer-links_container-column h4 {
@@ -18,7 +19,6 @@
   margin-bottom: 2.75rem;
 }
 
-
 .gpt3__footer-links_container-column a {
   font-family: var(--font-family);
   color: #fff;
@@ -26,4 +26,14 @@
   font-size: 14px;
   line-height: 16px;
   margin-bottom: 1.75rem;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 0.25rem;
+}
+
+.gpt3__footer-links_container-column a:hover {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border-color: var(--color-btn);
+  color: var(--color-btn);
 }

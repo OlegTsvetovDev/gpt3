@@ -1,30 +1,9 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
+import Menu from '../menu/Menu'
 import logo from '../../assets/logo.svg'
 import './navbar.css'
 
-
-const Menu = () => {
-  return (
-    <>
-      <p>
-        <a href="#home">Home</a>
-      </p>
-      <p>
-        <a href="#wgpt3">What is GPT3</a>
-      </p>
-      <p>
-        <a href="#possibility">Open AI</a>
-      </p>
-      <p>
-        <a href="#features">Case Studies</a>
-      </p>
-      <p>
-        <a href="#blog">Library</a>
-      </p>
-    </>
-  )
-}
 
 const Navbar = ({ props }) => {
   const [toggleMenu, setToggleMenu] = useState(false)

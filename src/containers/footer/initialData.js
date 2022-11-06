@@ -1,3 +1,7 @@
+export const footerHeader = 'Do you want to step in to the future before others'
+
+export const footerCTA = 'Request Early Access'
+
 export const footerAddress = 'Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved'
 
 export const footerContainersData = [

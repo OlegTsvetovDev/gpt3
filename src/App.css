@@ -41,6 +41,10 @@ a {
   padding: 4rem 6rem;
 }
 
+.section__padding.gpt3__header {
+  padding: 12rem 6rem 6rem 4rem;
+}
+
 .section__margin {
   margin: 4rem 6rem;
 }
